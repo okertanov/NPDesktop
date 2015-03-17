@@ -8,7 +8,6 @@
 
 #import "AppDelegate.h"
 
-#import "ViewController.h"
 #import "RFBViewController.h"
 #import "ServerListViewController.h"
 #import "RFBServerManager.h"
