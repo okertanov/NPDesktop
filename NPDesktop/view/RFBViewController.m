@@ -135,7 +135,7 @@
     DLogInfo(@"scrollViewDidZoom: scale=%f", scrollView.zoomScale);
 }
 
-- (void)scrollViewDidEndZooming:(UIScrollView *)scrollView withView:(UIView *)view atScale:(float)scale
+- (void)scrollViewDidEndZooming:(UIScrollView *)scrollView withView:(UIView *)view atScale:(CGFloat)scale
 {
     CGPoint center = self.rfbView.center;
     center.y = self.scrollView.center.y;

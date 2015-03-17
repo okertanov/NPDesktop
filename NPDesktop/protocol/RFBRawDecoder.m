@@ -8,7 +8,7 @@
 
 #import "RFBRawDecoder.h"
 
-static const size_t kAreaOfOneSlice = 1024 * 64;
+static const size_t __unused kAreaOfOneSlice = 1024 * 64;
 
 @implementation RFBRawDecoder
 

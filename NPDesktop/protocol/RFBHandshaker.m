@@ -113,7 +113,7 @@
     NSUInteger majorVer;
     NSUInteger minorVer;
     
-    if (sscanf(pv, rfbProtocolVersionFormat, &majorVer, &minorVer) != 2) {
+    if (sscanf(pv, rfbProtocolVersionFormat, (int*)&majorVer, (int*)&minorVer) != 2) {
         [self failWithErrorString:@"failed to get VNC version"
                              code:RFBConnectionProtocolError
                        connection:connection];

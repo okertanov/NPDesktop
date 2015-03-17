@@ -62,7 +62,7 @@ static RFBDecoderStore * _instance = nil;
         return NSOrderedSame;
     }];
     
-    int count = [_decoders count];
+    NSUInteger count = [_decoders count];
     NSMutableArray *decIds = [[NSMutableArray alloc] initWithCapacity:count];
     
     for (int i = 0; i < count; i++) {
@@ -107,7 +107,7 @@ static RFBDecoderStore * _instance = nil;
 
 - (BOOL)removeDecoderWithId:(int)decId
 {
-    int count = [_decoders count];
+    NSUInteger count = [_decoders count];
     for (int i = 0; i < count; i++) {
         RFBDecoder *decoder = [_decoders objectAtIndex:i];
         if (decoder.encoding == decId) {

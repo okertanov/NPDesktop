@@ -177,7 +177,7 @@ NSString *const RFBConnectionErrorDomain = @"RFBConnectionErrorDomain";
 {
     rfbProtocolVersionMsg pv;
     pv[sz_rfbProtocolVersionMsg] = '\0';
-    sprintf(pv, rfbProtocolVersionFormat, rfbMajorVersion, rfbMinorVersion);
+    sprintf(pv, rfbProtocolVersionFormat, (int)rfbMajorVersion, (int)rfbMinorVersion);
     
     DLogInfo(@"send ProtocolVersion %s", pv);
     
@@ -239,7 +239,7 @@ NSString *const RFBConnectionErrorDomain = @"RFBConnectionErrorDomain";
     se->type = rfbSetEncodings;
     
     NSArray *encAry = [[RFBDecoderStore sharedInstance] decoderIds];
-    int count = [encAry count];
+    int count = (int)[encAry count];
     se->nEncodings = count;
     
     for (int i = 0; i < count; i++) {

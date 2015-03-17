@@ -5849,6 +5849,8 @@ enum GCDAsyncSocketConfig
 
 - (void)maybeStartTLS
 {
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Wdeprecated-declarations"
 	// We can't start TLS until:
 	// - All queued reads prior to the user calling startTLS are complete
 	// - All queued writes prior to the user calling startTLS are complete
@@ -5897,6 +5899,7 @@ enum GCDAsyncSocketConfig
 		#endif
 		}
 	}
+#pragma clang diagnostic pop
 }
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -6144,6 +6147,8 @@ static OSStatus SSLWriteFunction(SSLConnectionRef connection, const void *data, 
 
 - (void)ssl_startTLS
 {
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Wdeprecated-declarations"
 	LogTrace();
 	
 	LogVerbose(@"Starting TLS (via SecureTransport)...");
@@ -6516,6 +6521,7 @@ static OSStatus SSLWriteFunction(SSLConnectionRef connection, const void *data, 
 	// Start the SSL Handshake process
 	
 	[self ssl_continueSSLHandshake];
+#pragma clang diagnostic pop
 }
 
 - (void)ssl_continueSSLHandshake

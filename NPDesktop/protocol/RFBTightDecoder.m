@@ -10,11 +10,11 @@
 #import "ZlibInflater.h"
 #import "Utility.h"
 
-static const int kRFBFilterIdMask = 0x40;
+static const int __unused kRFBFilterIdMask = 0x40;
 static const int kRFBStreamIdMask = 0x30;
 static const int kRFBDecodersNum  = 4;
 static const int kRFBMinSizeToCompress  = 12;
-static const int kRFBMaxPaletteColors   = 256;
+static const int __unused kRFBMaxPaletteColors   = 256;
 static const int kRFBTightBytesPerPixel = 3;
 
 @interface RFBTightDecoder()
