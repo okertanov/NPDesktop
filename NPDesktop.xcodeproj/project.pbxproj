@@ -9,14 +9,11 @@
 /* Begin PBXBuildFile section */
 		35864FD3175C7AF900C14D4B /* GCDAsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 35864F71175C7AF900C14D4B /* GCDAsyncSocket.m */; };
 		35864FD4175C7AF900C14D4B /* GCDAsyncUdpSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 35864F73175C7AF900C14D4B /* GCDAsyncUdpSocket.m */; };
-		35864FD5175C7AF900C14D4B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 35864F75175C7AF900C14D4B /* AppDelegate.m */; };
 		35864FD6175C7AF900C14D4B /* RFBConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = 35864F79175C7AF900C14D4B /* RFBConnection.m */; };
 		35864FD7175C7AF900C14D4B /* RFBFrameBuffer.m in Sources */ = {isa = PBXBuildFile; fileRef = 35864F7B175C7AF900C14D4B /* RFBFrameBuffer.m */; };
 		35864FD8175C7AF900C14D4B /* RFBRect.m in Sources */ = {isa = PBXBuildFile; fileRef = 35864F7D175C7AF900C14D4B /* RFBRect.m */; };
 		35864FD9175C7AF900C14D4B /* RFBServerData.m in Sources */ = {isa = PBXBuildFile; fileRef = 35864F7F175C7AF900C14D4B /* RFBServerData.m */; };
 		35864FDA175C7AF900C14D4B /* RFBServerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 35864F81175C7AF900C14D4B /* RFBServerManager.m */; };
-		35864FDE175C7AF900C14D4B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 35864F85175C7AF900C14D4B /* InfoPlist.strings */; };
-		35864FE0175C7AF900C14D4B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 35864F8F175C7AF900C14D4B /* main.m */; };
 		35864FE2175C7AF900C14D4B /* desk.png in Resources */ = {isa = PBXBuildFile; fileRef = 35864F93175C7AF900C14D4B /* desk.png */; };
 		35864FEB175C7AF900C14D4B /* CompressLevelPseudoDecoder.m in Sources */ = {isa = PBXBuildFile; fileRef = 35864F9E175C7AF900C14D4B /* CompressLevelPseudoDecoder.m */; };
 		35864FEC175C7AF900C14D4B /* JpegDecompressor.m in Sources */ = {isa = PBXBuildFile; fileRef = 35864FA0175C7AF900C14D4B /* JpegDecompressor.m */; };
@@ -59,6 +56,9 @@
 		76A72C3A1AB8503E00E82D72 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 76A72C371AB8503E00E82D72 /* Default-568h@2x.png */; };
 		76A72C3B1AB8503E00E82D72 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 76A72C381AB8503E00E82D72 /* Default.png */; };
 		76A72C3C1AB8503E00E82D72 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 76A72C391AB8503E00E82D72 /* Default@2x.png */; };
+		76A72C421AB854E200E82D72 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 76A72C3F1AB854E200E82D72 /* AppDelegate.m */; };
+		76A72C431AB854E200E82D72 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 76A72C401AB854E200E82D72 /* main.m */; };
+		76A72C471AB8551F00E82D72 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 76A72C451AB8551F00E82D72 /* InfoPlist.strings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -66,8 +66,6 @@
 		35864F71175C7AF900C14D4B /* GCDAsyncSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDAsyncSocket.m; sourceTree = "<group>"; };
 		35864F72175C7AF900C14D4B /* GCDAsyncUdpSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDAsyncUdpSocket.h; sourceTree = "<group>"; };
 		35864F73175C7AF900C14D4B /* GCDAsyncUdpSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDAsyncUdpSocket.m; sourceTree = "<group>"; };
-		35864F74175C7AF900C14D4B /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		35864F75175C7AF900C14D4B /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		35864F78175C7AF900C14D4B /* RFBConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RFBConnection.h; sourceTree = "<group>"; };
 		35864F79175C7AF900C14D4B /* RFBConnection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RFBConnection.m; sourceTree = "<group>"; };
 		35864F7A175C7AF900C14D4B /* RFBFrameBuffer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RFBFrameBuffer.h; sourceTree = "<group>"; };
@@ -78,15 +76,12 @@
 		35864F7F175C7AF900C14D4B /* RFBServerData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RFBServerData.m; sourceTree = "<group>"; };
 		35864F80175C7AF900C14D4B /* RFBServerManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RFBServerManager.h; sourceTree = "<group>"; };
 		35864F81175C7AF900C14D4B /* RFBServerManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RFBServerManager.m; sourceTree = "<group>"; };
-		35864F86175C7AF900C14D4B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		35864F8A175C7AF900C14D4B /* jconfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = jconfig.h; sourceTree = "<group>"; };
 		35864F8B175C7AF900C14D4B /* jerror.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = jerror.h; sourceTree = "<group>"; };
 		35864F8C175C7AF900C14D4B /* jmorecfg.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = jmorecfg.h; sourceTree = "<group>"; };
 		35864F8D175C7AF900C14D4B /* jpeglib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = jpeglib.h; sourceTree = "<group>"; };
 		35864F8E175C7AF900C14D4B /* turbojpeg.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = turbojpeg.h; sourceTree = "<group>"; };
-		35864F8F175C7AF900C14D4B /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		35864F90175C7AF900C14D4B /* NPDesktop-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "NPDesktop-Info.plist"; sourceTree = "<group>"; };
-		35864F91175C7AF900C14D4B /* NPDesktop-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NPDesktop-Prefix.pch"; sourceTree = "<group>"; };
+		35864F90175C7AF900C14D4B /* NPDesktop-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "NPDesktop-Info.plist"; path = "../NPDesktop-Info.plist"; sourceTree = "<group>"; };
 		35864F93175C7AF900C14D4B /* desk.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = desk.png; sourceTree = "<group>"; };
 		35864F9D175C7AF900C14D4B /* CompressLevelPseudoDecoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CompressLevelPseudoDecoder.h; sourceTree = "<group>"; };
 		35864F9E175C7AF900C14D4B /* CompressLevelPseudoDecoder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CompressLevelPseudoDecoder.m; sourceTree = "<group>"; };
@@ -156,6 +151,11 @@
 		76A72C371AB8503E00E82D72 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		76A72C381AB8503E00E82D72 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		76A72C391AB8503E00E82D72 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		76A72C3E1AB854E200E82D72 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		76A72C3F1AB854E200E82D72 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		76A72C401AB854E200E82D72 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		76A72C461AB8551F00E82D72 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = InfoPlist.strings; sourceTree = "<group>"; };
+		76BAFDD21AB8631600AD0E86 /* NPDesktop-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NPDesktop-Prefix.pch"; path = "../NPDesktop-Prefix.pch"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -181,6 +181,7 @@
 		35864F6E175C7AF900C14D4B /* NPDesktop */ = {
 			isa = PBXGroup;
 			children = (
+				76A72C3D1AB854E200E82D72 /* app */,
 				35864F6F175C7AF900C14D4B /* 3rdparty */,
 				35864F77175C7AF900C14D4B /* datamodel */,
 				35864F89175C7AF900C14D4B /* jpeg */,
@@ -189,12 +190,6 @@
 				35864FBA175C7AF900C14D4B /* utilities */,
 				35864FC6175C7AF900C14D4B /* view */,
 				76A72C361AB8503E00E82D72 /* resources */,
-				35864F74175C7AF900C14D4B /* AppDelegate.h */,
-				35864F75175C7AF900C14D4B /* AppDelegate.m */,
-				35864F85175C7AF900C14D4B /* InfoPlist.strings */,
-				35864F8F175C7AF900C14D4B /* main.m */,
-				35864F90175C7AF900C14D4B /* NPDesktop-Info.plist */,
-				35864F91175C7AF900C14D4B /* NPDesktop-Prefix.pch */,
 			);
 			path = NPDesktop;
 			sourceTree = "<group>";
@@ -359,12 +354,34 @@
 		76A72C361AB8503E00E82D72 /* resources */ = {
 			isa = PBXGroup;
 			children = (
+				76A72C441AB8551F00E82D72 /* en.lproj */,
+				35864F90175C7AF900C14D4B /* NPDesktop-Info.plist */,
 				76A72C371AB8503E00E82D72 /* Default-568h@2x.png */,
 				76A72C381AB8503E00E82D72 /* Default.png */,
 				76A72C391AB8503E00E82D72 /* Default@2x.png */,
 			);
 			path = resources;
 			sourceTree = "<group>";
+		};
+		76A72C3D1AB854E200E82D72 /* app */ = {
+			isa = PBXGroup;
+			children = (
+				76BAFDD21AB8631600AD0E86 /* NPDesktop-Prefix.pch */,
+				76A72C3E1AB854E200E82D72 /* AppDelegate.h */,
+				76A72C3F1AB854E200E82D72 /* AppDelegate.m */,
+				76A72C401AB854E200E82D72 /* main.m */,
+			);
+			path = app;
+			sourceTree = "<group>";
+		};
+		76A72C441AB8551F00E82D72 /* en.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				76A72C451AB8551F00E82D72 /* InfoPlist.strings */,
+			);
+			name = en.lproj;
+			path = NPDesktop/en.lproj;
+			sourceTree = SOURCE_ROOT;
 		};
 /* End PBXGroup section */
 
@@ -418,7 +435,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				76A72C3C1AB8503E00E82D72 /* Default@2x.png in Resources */,
-				35864FDE175C7AF900C14D4B /* InfoPlist.strings in Resources */,
 				35864FE2175C7AF900C14D4B /* desk.png in Resources */,
 				76A72C3A1AB8503E00E82D72 /* Default-568h@2x.png in Resources */,
 				35865001175C7AF900C14D4B /* RFBViewController.xib in Resources */,
@@ -427,6 +443,7 @@
 				35865009175C859700C14D4B /* keyboard.png in Resources */,
 				3586500A175C859700C14D4B /* mouse.png in Resources */,
 				3586500C175C898E00C14D4B /* hand.png in Resources */,
+				76A72C471AB8551F00E82D72 /* InfoPlist.strings in Resources */,
 				76A72C3B1AB8503E00E82D72 /* Default.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -440,13 +457,12 @@
 			files = (
 				35864FD3175C7AF900C14D4B /* GCDAsyncSocket.m in Sources */,
 				35864FD4175C7AF900C14D4B /* GCDAsyncUdpSocket.m in Sources */,
-				35864FD5175C7AF900C14D4B /* AppDelegate.m in Sources */,
 				35864FD6175C7AF900C14D4B /* RFBConnection.m in Sources */,
 				35864FD7175C7AF900C14D4B /* RFBFrameBuffer.m in Sources */,
 				35864FD8175C7AF900C14D4B /* RFBRect.m in Sources */,
 				35864FD9175C7AF900C14D4B /* RFBServerData.m in Sources */,
+				76A72C431AB854E200E82D72 /* main.m in Sources */,
 				35864FDA175C7AF900C14D4B /* RFBServerManager.m in Sources */,
-				35864FE0175C7AF900C14D4B /* main.m in Sources */,
 				35864FEB175C7AF900C14D4B /* CompressLevelPseudoDecoder.m in Sources */,
 				35864FEC175C7AF900C14D4B /* JpegDecompressor.m in Sources */,
 				35864FED175C7AF900C14D4B /* QualityLevelPseudoDecoder.m in Sources */,
@@ -463,6 +479,7 @@
 				35864FF8175C7AF900C14D4B /* ZlibInflater.m in Sources */,
 				35864FF9175C7AF900C14D4B /* d3des.c in Sources */,
 				35864FFA175C7AF900C14D4B /* KeyMap.m in Sources */,
+				76A72C421AB854E200E82D72 /* AppDelegate.m in Sources */,
 				35864FFB175C7AF900C14D4B /* Profiler.m in Sources */,
 				35864FFC175C7AF900C14D4B /* Utility.m in Sources */,
 				35864FFD175C7AF900C14D4B /* vncauth.c in Sources */,
@@ -476,10 +493,10 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		35864F85175C7AF900C14D4B /* InfoPlist.strings */ = {
+		76A72C451AB8551F00E82D72 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				35864F86175C7AF900C14D4B /* en */,
+				76A72C461AB8551F00E82D72 /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -547,13 +564,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "NPDesktop/NPDesktop-Prefix.pch";
+				GCC_PREFIX_HEADER = "NPDesktop/app/NPDesktop-Prefix.pch";
 				INFOPLIST_FILE = "NPDesktop/NPDesktop-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)\"",
 				);
+				PRECOMPS_INCLUDE_HEADERS_FROM_BUILT_PRODUCTS_DIR = YES;
 				PRODUCT_NAME = NPDesktop;
 				TARGETED_DEVICE_FAMILY = 2;
 				WRAPPER_EXTENSION = app;
@@ -564,13 +582,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "NPDesktop/NPDesktop-Prefix.pch";
+				GCC_PREFIX_HEADER = "NPDesktop/app/NPDesktop-Prefix.pch";
 				INFOPLIST_FILE = "NPDesktop/NPDesktop-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)\"",
 				);
+				PRECOMPS_INCLUDE_HEADERS_FROM_BUILT_PRODUCTS_DIR = YES;
 				PRODUCT_NAME = NPDesktop;
 				TARGETED_DEVICE_FAMILY = 2;
 				WRAPPER_EXTENSION = app;
